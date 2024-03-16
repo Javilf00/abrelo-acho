@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+
+.contenedor{
+    background: lightblue;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-image: url(descarga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p{
+    font-size: xx-large;
+    padding: 15%;
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75%;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
